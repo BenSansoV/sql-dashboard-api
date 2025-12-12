@@ -8,7 +8,7 @@ from .security import validate_sql
 
 app = FastAPI(title="SQL Dashboard API")
 
-ALLOWED_ORIGINS = ["http://localhost:5173","http://127.0.0.1:5173"]
+ALLOWED_ORIGINS = ["http://localhost:5173","http://127.0.0.1:5173","https://sql-dashboard-demo.vercel.app"]
 
 app.add_middleware(
     CORSMiddleware,
